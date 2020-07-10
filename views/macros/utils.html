@@ -1,3 +1,5 @@
+{# allows a user to create one, two, or three column widgets #}
+{# block level just changes UI to blue to avoid confusion once many widgets are stacked #}
 {% macro columns() %}
   {{ apos.area(data.page, 'main', {
     blockLevelControls: true,
@@ -9,6 +11,7 @@
   }) }}
 {% endmacro %}
 
+{# Once a user creates a columned widget, then he can fill out the columns with content as seen below (rich text, images, video) #}
 {# Go to home page and open widget. There will be options for rich text, images, video, and test #}
 {% macro column(parent, name, imageSize) %}
   {{ apos.area(parent, name, {

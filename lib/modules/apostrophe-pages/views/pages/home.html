@@ -7,6 +7,13 @@
 
 {% import "macros/utils.html" as utils with context %}
 
+{% block title %}
+{# Create a useful, SEO-friendly title tag based on what we have #}
+{# title blocks can be overwritten downstream #}
+{# the title block was overwritten from the original in layout.html  #}
+    Sunrise Integration
+{% endblock %}
+
 {% block main %}
   <main>
     {# This is called from macros/utils.html.#}
