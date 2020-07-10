@@ -35,3 +35,4 @@ This is a tiny fraction of what Apostrophe can do, these are just topics
 that developers have found confusing in the past.
 
 For more documentation about Apostrophe and complete documentation, visit the [A2 documentation site](http://apostrophecms.com).
+# apostrophe-sample-features
