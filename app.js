@@ -13,7 +13,7 @@ var apos = require('apostrophe')({
 
     // Note: most configuration occurs in the respective
     // modules' directories. See lib/apostrophe-assets/index.js for an example.
-    
+
     // However any modules that are not present by default in Apostrophe must at
     // least have a minimal configuration here: `moduleName: {}`
 
@@ -21,11 +21,11 @@ var apos = require('apostrophe')({
     // `views/` folder of the project
 
     'apostrophe-templates': {
-      viewsFolderFallback: path.join(__dirname, 'views') 
+      viewsFolderFallback: path.join(__dirname, 'views')
       // See also lib/modules/apostrophe-templates/index.js
     },
-  
-    // see lib/modules/one-column-widgets/index.js, et cetera 
+
+    // see lib/modules/one-column-widgets/index.js, et cetera
     // Use index.js files for each module to keep app.js readable
 
     'one-column-widgets': {},
@@ -62,7 +62,7 @@ var apos = require('apostrophe')({
               value: 'networkName'
             }
           ]
-        }  
+        }
       ]
     }
   }
