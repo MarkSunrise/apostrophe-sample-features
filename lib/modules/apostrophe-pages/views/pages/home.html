@@ -9,6 +9,9 @@
 
 {% block main %}
   <main>
+    {# This is called from macros/utils.html.#}
+    {# this provides user to create a one, two, or three column widget #}
+    {# The subsequent column widget will have the ability to add rich text, images, and videos #}
     {{ utils.columns() }}
   </main>
 {% endblock %}

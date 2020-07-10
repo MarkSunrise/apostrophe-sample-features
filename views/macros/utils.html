@@ -9,6 +9,7 @@
   }) }}
 {% endmacro %}
 
+{# Go to home page and open widget. There will be options for rich text, images, video, and test #}
 {% macro column(parent, name, imageSize) %}
   {{ apos.area(parent, name, {
     widgets: {
@@ -21,6 +22,6 @@
       'apostrophe-video': {},
       'test': {}
     }
-  }) }} 
+  }) }}
 {% endmacro %}
 
